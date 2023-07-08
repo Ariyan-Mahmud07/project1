@@ -60,3 +60,65 @@ color: white;
 border: none;
 /* border-radius: 5px; */
 }
+.banner-photo{
+    width: 300px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+    
+    
+}
+.about-title{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.man{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.four{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+.icon{
+    width: 70px;
+}
+.box-butt{
+    background-color: grey;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-des{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-image: url(./logo/download.jpg);
+    background: linear-gradient(45deg,#3b3333,#000);
+}
